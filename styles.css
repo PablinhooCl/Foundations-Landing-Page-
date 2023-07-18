@@ -4,6 +4,7 @@
 body{
     margin: 0;
 }
+/* 1ERA PARTE HEADER */
 .header {
     background-color: #1F2937;
     display: flex;
@@ -11,7 +12,7 @@ body{
     flex: 1;
     color: #F9FAF8;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-style: ; */
+    
     
 }
 .topheader, .botheader, .header-links {
@@ -64,3 +65,46 @@ body{
                     flex: 0 1;
                     width: 650px;
                 }
+/* ------------------------------------- */
+
+/* 2DA PARTE */
+
+.twopart {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin: 100px 0px;
+    gap: 50px;
+  
+}
+.tittletwo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.conttwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+.portrait1, .portrait2, .portrait3, .portrait4 {
+    & a {
+        width: 206px;
+        margin: 5px;
+        text-align: center;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p1, .p2, .p3, .p4{
+    height: auto;
+    width: 208px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    margin: 25px;
+}
